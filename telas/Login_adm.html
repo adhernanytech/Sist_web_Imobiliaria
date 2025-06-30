@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão Imobiliária - Admin</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/icones/iconesFontAwesome/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/Login_adm.css">
+</head>
+
+
+<body>
+
+
+    <main class="login-container">
+        <div class="form-box">
+            <h4 class="text-center mb-4">Login do Administrador</h4>
+            <form id="loginForm" class="form">
+                <!-- Username -->
+                <div class="form-group position-relative mb-4 mt-4">
+                    <span class="fas fa-user fa-lg position-absolute" style="top: 21px; left: 10px;"></span>
+                    <input type="text" id="nome_user" name="nome_user" class="form-control" placeholder="@Seu_username"
+                        required>
+                </div>
+
+                <!-- Password -->
+                <div class="form-group position-relative mb-4">
+                    <span class="fas fa-lock fa-lg position-absolute" style="top: 21px; left: 10px;"></span>
+                    <input type="password" id="password" name="password" class="form-control"
+                        placeholder="Sua palavra-passe" required>
+                </div>
+
+                <!-- Botão -->
+                <button type="submit" class="btn btn-dark w-100">Entrar</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/Login_adm.js"></script>
+</body>
+
+</html>

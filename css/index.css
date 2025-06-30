@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav .nav-link {
+    transform: scale(1.15);
+    margin-left: 20px;
+    border-bottom: 1.5px solid currentColor;
+    font-weight: bold;
+    
+}
+
+nav .nav-link:hover {
+    transform: scale(1.2);
+    color: white !important;
+    border-bottom: 1.5px solid white;
+}
+
+
+
+.imagem-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background-image: url('../imagens/apartamento2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+

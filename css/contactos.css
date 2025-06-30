@@ -1,0 +1,53 @@
+/* contactos.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav .nav-link {
+    transform: scale(1.15);
+    margin-left: 20px;
+    border-bottom: 1.5px solid currentColor;
+    font-weight: bold;
+    
+}
+
+nav .nav-link:hover {
+    transform: scale(1.2);
+    color: white !important;
+    border-bottom: 1.5px solid white;
+}
+
+form input,
+form textarea {
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+form button {
+  background-color: rgba(231, 94, 2, 0.904);
+  border: none;
+}
+
+form button:hover {
+  background-color: rgba(200, 80, 2, 0.904);
+}
+
+
+.sobre-nos {
+  margin-top: 60px;
+  margin-bottom: 250px;
+}
+
+.sobre-nos h4 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sobre-nos p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}

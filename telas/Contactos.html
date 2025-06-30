@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos - Prisma Imobiliária</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/icones/iconesFontAwesome/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/contactos.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg p-3" style="background-color: rgba(231, 94, 2, 0.904);">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="../index.html">Prisma Imobiliária</a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Lista-Imoveis.html">Imóveis</a></li>
+                <li class="nav-item"><a class="nav-link" href="" style="border-bottom-color: white;">Contactos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CABEÇALHO -->
+    <header class="bg-light py-5 text-center">
+        <div class="container">
+            <h2 class="display-5">Entre em contacto connosco</h2>
+            <p class="lead text-muted">Estamos prontos para ajudá-lo a encontrar o imóvel ideal.</p>
+        </div>
+    </header>
+
+    <!-- FORMULÁRIO E CONTACTOS -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-5">
+
+                <!-- Formulário -->
+                <div class="col-md-6">
+                    <h4>Envie-nos uma mensagem</h4>
+                    <form id="formContacto">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Enviar</button>
+                    </form>
+                </div>
+
+                <!-- Informações de contacto -->
+                <div class="col-md-6">
+                    <h4>Informações de Contacto</h4>
+                    <p><i class="fas fa-map-marker-alt me-2 "></i>Rua Principal, Luanda, Angola</p>
+                    <p><i class="fas fa-envelope me-2 "></i>prisma@imobiliaria.ao</p>
+                    <p><i class="fas fa-phone me-2"> +244 999 999 999</i></p>
+
+                    <h5 class="mt-4">Redes Sociais</h5>
+                    <div class="d-flex gap-3 mt-2">
+                        <a href="#" class="text-dark"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#" class="text-dark"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#" class="text-dark"><i class="fab fa-whatsapp fa-2x"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr class="my-5">
+
+    <!-- SOBRE NÓS -->
+    <section class="sobre-nos text-center px-3">
+        <div class="container">
+            <h4 class="mb-4">Sobre Nós</h4>
+            <p class="">
+                A <strong>Messias Imobiliária</strong> é uma empresa dedicada à realização de sonhos. Com anos de
+                experiência no
+                mercado angolano, oferecemos uma ampla gama de imóveis selecionados com rigor e responsabilidade.
+                Atuamos com
+                transparência, compromisso e excelência no atendimento aos nossos clientes, buscando sempre superar
+                expectativas
+                e facilitar o acesso à casa própria ou ao investimento certo.
+            </p>
+            <p class="text-muted">
+                Seja para comprar, vender ou alugar, conte com a nossa equipa profissional para guiá-lo com segurança em
+                todas as
+                etapas do processo imobiliário.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="text-white py-4" style="background-color: rgba(231, 94, 2, 0.904);">
+        <div class="container text-center">
+            <p>&copy; 2025 Prisma Imobiliária. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Apenas simula o envio do formulário
+        document.getElementById('formContacto').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert("Mensagem enviada com sucesso!");
+            this.reset();
+        });
+    </script>
+</body>
+
+</html>

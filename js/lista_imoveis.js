@@ -37,7 +37,7 @@ const imoveisFixos = {
     descricao: "Casa espaçosa com jardim e piscina, ideal para famílias grandes.",
     imagem: "../imagens/findHouse.jpg",
     preco: "150.000.000 KZ",
-    status: "vendido",
+    status: "disponivel",
     caracteristicas: [
       "2 Quartos",
       "1 Casa de banho",
